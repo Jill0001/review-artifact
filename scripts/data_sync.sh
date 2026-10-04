@@ -26,7 +26,7 @@ MANIFEST="$REPO_ROOT/data_manifest.md5"
 RCLONE_OPTS=(--filter-from "$FILTER" --skip-links --transfers 4 --checkers 8)
 
 command -v rclone >/dev/null || {
-  echo "rclone not found. Install it (https://rclone.org/install/) and run:" >&2
+  echo "rclone not found. Install it and run:" >&2
   echo "  rclone config create gdrive drive scope=drive" >&2
   exit 1
 }
