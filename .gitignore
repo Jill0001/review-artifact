@@ -14,7 +14,7 @@ out/
 .ruff_cache/
 
 # 大数据一律在 Hugging Face，不进 git
-# 数据集: https://huggingface.co/datasets/Agent-as-Policy/<name>
+# Dataset artifacts are supplied separately for anonymous review.
 agp/sessions/
 agp/bridge_logs/
 agp/bridge_recordings*/
